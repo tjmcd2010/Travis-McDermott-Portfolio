@@ -1,48 +1,72 @@
 
-# 02 Advanced CSS: Portfolio
+# Travis McDermott's Porfolio
 
-## User Story
+## Description
+  I started taking the UC Berkeley Full Stack Web Developer Bootcamp in March and have started creating a portfolio that highlights the projects that I've worked on throughout the course. Graduation for the course is in September, 2024.
 
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+## URL of Deployed Application
 
+[Travis McDermott's Portfolio](https://tjmcd2010.github.io/Travis-McDermott-Portfolio/)
 
-## Acceptance Criteria
+## Screenshot of Deployed Application
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Technologies](#technologies)
+  - [License](#license)
+  - [Questions](#questions)
 
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
-## Steps I took to complete this project
+## Installation
+  Each application has its own set of installation instructions if needed, from checking the weather, to creating a blog post to tracking employee payroll. 
 
-1. I created a repository titled "mcdermott-challenge-02" with a README file.
-2. I cloned the repository to my local machine and started to build out my html and css files and linked them together in the html.
-3. I created my header with my title and avatar.
-4. I created a navigation bar in the header.
-5. I created the body to include projects that I've been working on. These include shaded, rounded boxes with images utilizing shadow-box and border-radius attributes in the css file.
-6. The images for projects that I've completed include a link to url of the completed project.
-7. The first project listed has an image that is larger than the others. 
-![See screenshot](<Images/Projects screenshot.png>)
-8. I created a footer with a navigation bar of links to ways to connect with me.
-![See screenshot](<Images/Footer screenshot.png>)
-9. In the header navigation bar, I connected the links to the appropriate sections of the page. 
-10. I created the page in a responsive manner so that the images move, based on the size of the browser that's viewing it. 
-![See screenshot](<Images/Responsiveness screenshot.png>)
-11. I utilized various snippets of code that we've used in previous activities to piece together the content for this portfolio.
+## Usage
+  There are a variety of applications, utilizing a number of technologies that can be used for a variety of reasons. 
 
+## Technologies Utilized
+
+  
+* [![Node.js][Nodejs.org]][Node-url]
+* [![Express.js][Expressjs.com]][Express-url]
+* [![handlebars.js][handlebarsjs.com]][handlebars-url]
+* [![PostgreSQL][PostgreSQL.org]][PostgreSQL-url]
+* [![Sequelize][Sequelizejs.com]][Sequelize-url]
+* [![Render][Render.com]][Render-url]
+* [![Materialize][Materializecss.com]][Materialize-url]
+
+## License
+  None
+
+## Questions
+
+For any additional questions or feedback, please contact me with the following information:
+Github: (https://github.com/tjmcd2010)
+Email: (mailto:tjmcd2010@gmail.com)  
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/tjmcd2010/Watch-My-Pet.svg?style=for-the-badge
+[contributors-url]: https://github.com/tjmcd2010/Watch-My-Pet/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/tjmcd2010/Watch-My-Pet.svg?style=for-the-badge
+[forks-url]: https://github.com/tjmcd2010/Watch-My-Pet/network/members
+[stars-shield]: https://img.shields.io/github/stars/tjmcd2010/Watch-My-Pet.svg?style=for-the-badge
+[stars-url]: https://github.com/tjmcd2010/Watch-My-Pet/stargazers
+[issues-shield]: https://img.shields.io/github/issues/tjmcd2010/Watch-My-Pet.svg?style=for-the-badge
+[issues-url]: https://github.com/tjmcd2010/Watch-My-Pet/issues
+[license-shield]: https://img.shields.io/github/license/tjmcd2010/Watch-My-Pet.svg?style=for-the-badge
+[license-url]: https://github.com/tjmcd2010/Watch-My-Pet/blob/master/LICENSE.txt
+[product-screenshot]: ./assets/images/WeatherDashboardScreenshot.png
+[nodejs.org]: https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white
+[Node-url]: https://nodejs.org/en/
+[Expressjs.com]: https://img.shields.io/badge/Expressjs-000000?style=for-the-badge&logo=express&logoColor=white
+[Express-url]: https://expressjs.com/
+[handlebarsjs.com]: https://img.shields.io/badge/handlebarsjs-FC6600?style=for-the-badge&logo=handlebarsdotjs&logoColor=white
+[Handlebars-url]: https://handlebarsjs.com/
+[PostgreSQL.org]: https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white
+[PostgreSQL-url]: https://www.postgresql.org/
+[Sequelizejs.com]: https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white
+[Sequelize-url]: https://sequelize.org/
+[Render.com]: https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white
+[Render-url]: https://render.com/
+[Materializecss.com]: https://img.shields.io/badge/Materialize-FF8A80?style=for-the-badge&logo=&logoColor=white
+[Materialize-url]: https://materializecss.com/
